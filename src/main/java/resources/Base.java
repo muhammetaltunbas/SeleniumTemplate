@@ -25,7 +25,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
     public static WebDriver driver;
     private Properties prop;
-    public static WebDriverWait w;
+    public static WebDriverWait w;//test
 
     public Properties getProp() {
         return prop;
