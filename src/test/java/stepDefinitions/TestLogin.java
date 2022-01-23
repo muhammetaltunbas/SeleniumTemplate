@@ -49,7 +49,7 @@ public class TestLogin extends Base {
 
     @Then("User can not login in")
     public void user_can_not_login_in() {
-        Assert.assertTrue(lp.checkWrongLoginCridentials());
+        Assert.assertTrue(lp.checkWrongLoginCridentials());//Test
     }
 
 
